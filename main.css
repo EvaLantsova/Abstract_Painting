@@ -1,0 +1,129 @@
+@import "reset.css";
+
+html {
+  overflow-x: hidden;
+}
+body {
+  background-color: #000000
+}
+.round {
+  top: 10vw;
+}
+.angle {
+  border-top: 88vw solid #f5a741;
+  border-left: 111vw solid transparent;
+  filter: blur(2px);
+}
+
+.circle1 {
+  background: #d94545;
+  border: 0.1875em solid #0F1C3F;
+  border-radius: 50%;
+  box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.125);
+  height: 10vw;
+  width: 10vw;
+  filter: blur(5px);
+}
+.circle2 {
+  background: #d96745;
+  border: 0.1875em solid #0F1C3F;
+  border-radius: 50%;
+  box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.125);
+  height: 20vw;
+  width: 20vw;
+  filter: blur(5px);
+}
+.circle3 {
+  background: #d98945;
+  border: 0.1875em solid #0F1C3F;
+  border-radius: 50%;
+  box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.125);
+  height: 30vw;
+  width: 30vw;
+  filter: blur(5px);
+}
+.circle4 {
+  background: #ffa708;
+  border: 0.1875em solid #0F1C3F;
+  border-radius: 50%;
+  box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.125);
+  height: 40vw;
+  width: 40vw;
+  filter: blur(5px);
+}
+.square {
+    background: #ff0808;
+    width: 35vw;
+    height: 55vw;
+    margin-top: -128vw;
+    margin-left: 30vw;
+    transform: rotate(31deg);
+    filter: blur(4px);
+}
+.square2 {
+    background: #ff7a08;
+    width: 35vw;
+    height: 55vw;
+    margin-top: 5vw;
+    margin-left: 30vw;
+    transform: rotate(30deg);
+    filter: blur(4px);
+}
+.square3 {
+    background: #ff0808;
+    width: 35vw;
+    height: 55vw;
+    margin-top: 5vw;
+    margin-left: 30vw;
+    transform: rotate(33deg);
+    filter: blur(4px);
+}
+@media (min-width: 1440px ) {
+  y {
+    height: 1440px;
+    width: 1040;
+  }
+  .round {
+    margin-top: -71vw;
+    height: 70vw;
+}
+.angle {
+    border-top: 82vw solid #f5a741;
+    border-left: 105vw solid transparent;
+  }
+  .circle1 {
+    height: 5vw;
+    width: 5vw;
+  }
+  .circle2 {
+    height: 10vw;
+    width: 10vw;
+  }
+  .circle3 {
+    height: 15vw;
+    width: 15vw;
+  }
+  .circle4 {
+    height: 20vw;
+    width: 20vw;
+  }
+  .square {
+    width: 10vw;
+    height: 10vw;
+    margin-top: 4vw;
+    margin-left: 30vw;
+    transform: rotate(36deg);
+  }
+  .square2 {
+    width: 10vw;
+    height: 10vw;
+    margin-left: 38vw;
+    transform: rotate(37deg);
+  }
+  .square3 {
+    width: 10vw;
+    height: 10vw;
+    margin-left: 48vw;
+    transform: rotate(38deg);
+  }
+}
